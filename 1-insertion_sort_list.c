@@ -64,13 +64,12 @@ void loop_back(listint_t **list)
  */
 void insertion_sort_list(listint_t **list)
 {
-	size_t len;
 	listint_t  *cur, *nxt, *prv;
 
 	if (!list || !*list)
 		return;
-	len = listint_len(*list);
-	while (len)
+
+	while (1)
 	{
 		cur = *list;
 		while (cur)
@@ -99,6 +98,7 @@ void insertion_sort_list(listint_t **list)
 			}
 			cur = cur->next;
 		}
-		len--;
+		if (!cur)
+			break;
 	}
 }

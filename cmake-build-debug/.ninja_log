@@ -70,3 +70,11 @@
 70	124	1713086924715755984	sorting_algorithms	58e869bdc37ff1c5
 1	66	1713087109291642286	CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o	aadedba2995cad7e
 66	106	1713087109331641462	sorting_algorithms	58e869bdc37ff1c5
+17	204	1713623556947963588	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	6f3ed0029eaad323
+24	204	1713623556943967633	CMakeFiles/sorting_algorithms.dir/print_list.c.o	271c44873d861e4b
+33	204	1713623556947963588	CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o	aadedba2995cad7e
+20	204	1713623556947963588	CMakeFiles/sorting_algorithms.dir/print_array.c.o	5d5047ec080002c4
+204	279	1713623557015894821	sorting_algorithms	58e869bdc37ff1c5
+13	102	1713624396239903034	CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o	aadedba2995cad7e
+102	148	1713624396283864341	sorting_algorithms	58e869bdc37ff1c5
+2	41	1713624473181388934	CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o	aadedba2995cad7e
