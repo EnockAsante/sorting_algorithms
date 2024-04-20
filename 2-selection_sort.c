@@ -55,6 +55,8 @@ void selection_sort(int *array, size_t size)
 			smallest = array[idx +  1];
 			print_arry(array, size);
 		}
+		else
+			smallest = array[idx +  1];
 		idx++;
 	}
 }
