@@ -6,7 +6,7 @@
  */
 void print_arry(const int *array, size_t size)
 {
-	int i = 0;
+	size_t i = 0;
 
 	if (!array)
 		return;
