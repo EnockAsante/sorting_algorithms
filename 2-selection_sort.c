@@ -27,7 +27,7 @@ void print_arry(const int *array, size_t size)
  */
 void selection_sort(int *array, size_t size)
 {
-	int smallest, i, idx = 0, temp, smallest_idx, swap_me = 0;
+	size_t smallest, i, idx = 0, temp, smallest_idx;
 
 	if (!array || size == 0)
 		return;
