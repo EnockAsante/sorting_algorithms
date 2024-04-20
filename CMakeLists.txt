@@ -10,4 +10,6 @@ add_executable(sorting_algorithms
         print_array.c
         print_list.c
         sort.h
-        1-insertion_sort_list.c)
+        1-insertion_sort_list.c
+        2-selection_sort.c
+        )
