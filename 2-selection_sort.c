@@ -1,5 +1,9 @@
 #include "sort.h"
-
+/**
+ * print_arry - prints array
+ * @array: array to sort
+ * @size: size of array
+ */
 void print_arry(const int *array, size_t size)
 {
 	int i = 0;
@@ -18,8 +22,8 @@ void print_arry(const int *array, size_t size)
 
 /**
  * selection_sort - print doubly linked list
- * @h: head of list
- * Return: 0 if none or len
+ * @array: array to sort
+ * @size: size of array
  */
 void selection_sort(int *array, size_t size)
 {
@@ -52,5 +56,4 @@ void selection_sort(int *array, size_t size)
 		}
 		idx++;
 	}
-
 }
