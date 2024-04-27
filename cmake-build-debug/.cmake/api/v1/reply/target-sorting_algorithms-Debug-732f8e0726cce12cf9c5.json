@@ -67,7 +67,8 @@
 				1,
 				2,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -104,7 +105,8 @@
 				1,
 				2,
 				4,
-				5
+				5,
+				6
 			]
 		},
 		{
@@ -150,6 +152,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "2-selection_sort.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3-quick_sort.c",
 			"sourceGroupIndex" : 0
 		}
 	],

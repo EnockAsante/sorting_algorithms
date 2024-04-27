@@ -84,6 +84,13 @@ build CMakeFiles/sorting_algorithms.dir/2-selection_sort.c.o: C_COMPILER__sortin
   OBJECT_DIR = CMakeFiles/sorting_algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting_algorithms.dir
 
+build CMakeFiles/sorting_algorithms.dir/3-quick_sort.c.o: C_COMPILER__sorting_algorithms_unscanned_Debug /home/gadget/Desktop/ALX/sorting_algorithms/3-quick_sort.c || cmake_object_order_depends_target_sorting_algorithms
+  DEP_FILE = CMakeFiles/sorting_algorithms.dir/3-quick_sort.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/gadget/Desktop/ALX/sorting_algorithms/.
+  OBJECT_DIR = CMakeFiles/sorting_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sorting_algorithms.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sorting_algorithms
@@ -92,7 +99,7 @@ build CMakeFiles/sorting_algorithms.dir/2-selection_sort.c.o: C_COMPILER__sortin
 #############################################
 # Link the executable sorting_algorithms
 
-build sorting_algorithms: C_EXECUTABLE_LINKER__sorting_algorithms_Debug CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o CMakeFiles/sorting_algorithms.dir/print_array.c.o CMakeFiles/sorting_algorithms.dir/print_list.c.o CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o CMakeFiles/sorting_algorithms.dir/2-selection_sort.c.o
+build sorting_algorithms: C_EXECUTABLE_LINKER__sorting_algorithms_Debug CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o CMakeFiles/sorting_algorithms.dir/print_array.c.o CMakeFiles/sorting_algorithms.dir/print_list.c.o CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o CMakeFiles/sorting_algorithms.dir/2-selection_sort.c.o CMakeFiles/sorting_algorithms.dir/3-quick_sort.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/sorting_algorithms.dir
   POST_BUILD = :
