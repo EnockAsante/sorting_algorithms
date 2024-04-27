@@ -28,7 +28,6 @@ int checker(int *array, size_t size)
 
 	if (!array)
 		return (0);
-
 	for (i = 0; i < size; i++)
 	{
 		for (j = i + 1; j < size; j++)
@@ -77,7 +76,8 @@ void quick_sort(int *array, size_t size)
 
 	while (1)
 	{
-		if ((array[i] > pivot && pivot_ind > i) || (array[i] < pivot && pivot_ind < i))
+		if ((array[i] > pivot && pivot_ind > i)
+		|| (array[i] < pivot && pivot_ind < i))
 		{
 			_swap(array, i, pivot_ind);
 			print_array(array, size);
