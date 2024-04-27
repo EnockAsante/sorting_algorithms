@@ -2,6 +2,7 @@
 
 /**
  * _swap - swaps
+ * @array: the array
  * @idx_a: ref idx_a
  * @idx_b: ref idx_b
  */
