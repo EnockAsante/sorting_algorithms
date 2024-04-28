@@ -81,6 +81,8 @@ void quick_sort(int *array, size_t size)
 		{
 			_swap(array, i, pivot_ind);
 			print_array(array, size);
+			pivot_ind = piv_idx(array, pivot, size);
+			i = 0;
 		}
 
 		if (checker(array, size))
@@ -92,13 +94,14 @@ void quick_sort(int *array, size_t size)
 			{
 				prev_pivot = pivot;
 				pivot = array[size - u];
+				pivot_ind = piv_idx(array, pivot, size);
 				if (prev_pivot != pivot)
 					break;
 				u++;
 			}
 			i = 0;
 		}
-		pivot_ind = piv_idx(array, pivot, size);
-		i++;
+		else
+			i++;
 	}
 }
